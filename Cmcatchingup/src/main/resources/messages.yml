@@ -1,0 +1,47 @@
+prefix: "&5[CmCatchingUp] &7"
+
+error:
+  no-permission: "&cУ вас нет прав для использования этой команды."
+  players-only: "&cЭту команду могут использовать только игроки."
+  lobby-not-set: "&cЛобби еще не установлено администратором!"
+  arena-not-set: "&cОшибка: Арена не установлена! Игра не может начаться."
+  already-in-game: "&eВы уже в лобби или игре!"
+  game-already-running: "&cИгра уже идет или заканчивается!"
+  invalid-glow-color: "&eНеверный цвет свечения '{color}' в config.yml. Используется RED."
+  world-not-found: "&eМир '{world}' не найден для локации: {path}"
+
+command:
+  setlobby:
+    success: "&aЛобби для догонялок установлено на вашу текущую позицию!"
+  setarena:
+    success: "&aАрена для догонялок установлена на вашу текущую позицию!"
+
+lobby:
+  join: "&aВы присоединились к лобби догонялок!"
+  player-join: "&e{player} присоединился к лобби! ({current}/{required})"
+  player-leave: "&e{player} покинул лобби."
+  countdown-start: "&aНабирается минимальное количество игроков! Начало через {seconds} секунд..."
+  countdown-cancel: "&cСтарт игры отменен: {reason}"
+  not-enough-players: "Недостаточно игроков."
+
+game:
+  start: "&6Игра началась!"
+  start-failed-players: "&cНедостаточно игроков для начала игры."
+  player-leave: "&e{player} покинул игру."
+  tag: "&#FF5555{tagged} &eтеперь догоняет &a{tagger}&e!"
+  new-it-first: "&#FF5555{player} &eначинает игру как догоняющий!"
+  new-it-alone: "&#FF5555{player} &eтеперь догоняет (остался один)!"
+  no-one-to-tag: "Некого выбрать в догоняющие."
+  end-timer: "Время вышло!"
+  end-not-enough-players: "Недостаточно игроков для продолжения."
+  end-title: "&6Игра окончена!"
+  end-reason: "&eПричина: {reason}"
+  force-end: "&cИгра принудительно завершена."
+
+title:
+  countdown:
+    title: "&6{seconds}"
+    subtitle: "&eИгра начнется через..."
+  countdown-cancelled:
+    title: "&cСтарт отменен!"
+    subtitle: "&e{reason}"

@@ -1,0 +1,6 @@
+game:
+  min-players: 2
+  countdown-seconds: 10
+  duration-seconds: 180
+  glow-color: "RED"
+locations: {}

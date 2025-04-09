@@ -1,0 +1,22 @@
+name: cmcatchingup
+version: 1.0.0
+main: ru.cmegma.cmcatchingup.Cmcatchingup
+api-version: '1.21'
+author: cmegma
+description: Плагин на догонялки.
+commands:
+  play:
+    description: Войти в лобби игры.
+    usage: /play
+  setlobby:
+    description: Установить локацию лобби.
+    usage: /setlobby
+    permission: cmcatchingup.admin
+  setarena:
+    description: Установить локацию арены игры.
+    usage: /setarena
+    permission: cmcatchingup.admin
+permissions:
+  cmcatchingup.admin:
+    description: Фулл права.
+    default: op
